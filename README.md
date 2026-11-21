@@ -17,7 +17,9 @@
 
 2 a.m.
 
-A small Raspberry Pi on my desk. For a whole year it had been my home media center, playing movies without a single complaint. Then, on an ordinary day, it decided to go silent.
+A small Raspberry Pi 3B+ on my desk: one of my oldest companions in my cybersecurity learning journey.
+
+It was more than a tiny computer. It was my **Cybersecurity Home Lab**, running 24/7 for nearly a year, carrying my penetration testing experiments and network analysis practice without a single complaint. Then, on an ordinary day, it decided to go silent.
 
 No boot. No picture. Nothing.
 
