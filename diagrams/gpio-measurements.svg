@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 400" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+  <rect width="760" height="400" rx="18" fill="#0f1720"/>
+  <text x="380" y="40" text-anchor="middle" fill="#e6edf3" font-size="21" font-weight="700">GPIO header — where I measured</text>
+  <text x="380" y="62" text-anchor="middle" fill="#8b949e" font-size="13">Top-left corner of the 40-pin header (Pin 1 = square pad, inner row)</text>
+
+  <rect x="250" y="90" width="260" height="190" rx="10" fill="#0b3d1e" stroke="#2ea043" stroke-width="2"/>
+  <!-- inner row (odd) x=320 ; outer row (even) x=440 -->
+  <g font-size="14" font-weight="700">
+    <rect x="304" y="108" width="32" height="32" rx="3" fill="#d4a72c"/><text x="320" y="130" text-anchor="middle" fill="#0f1720">1</text>
+    <circle cx="440" cy="124" r="16" fill="#d4a72c"/><text x="440" y="129" text-anchor="middle" fill="#0f1720">2</text>
+    <circle cx="320" cy="174" r="16" fill="#6e7681"/><text x="320" y="179" text-anchor="middle" fill="#0f1720">3</text>
+    <circle cx="440" cy="174" r="16" fill="#d4a72c"/><text x="440" y="179" text-anchor="middle" fill="#0f1720">4</text>
+    <circle cx="320" cy="224" r="16" fill="#6e7681"/><text x="320" y="229" text-anchor="middle" fill="#0f1720">5</text>
+    <circle cx="440" cy="224" r="16" fill="#d4a72c"/><text x="440" y="229" text-anchor="middle" fill="#0f1720">6</text>
+  </g>
+  <text x="380" y="270" text-anchor="middle" fill="#8b949e" font-size="11">… pins 7–40 continue</text>
+
+  <!-- Labels left -->
+  <line x1="304" y1="124" x2="230" y2="124" stroke="#f85149" stroke-width="2"/>
+  <rect x="30" y="100" width="200" height="50" rx="10" fill="#2a1216" stroke="#f85149" stroke-width="2"/>
+  <text x="45" y="121" fill="#e6edf3" font-size="13" font-weight="700">Pin 1 · 3.3 V rail</text>
+  <text x="45" y="141" fill="#f85149" font-size="16" font-weight="800">0.00 V ✗</text>
+
+  <!-- Labels right -->
+  <line x1="456" y1="124" x2="530" y2="124" stroke="#3fb950" stroke-width="2"/>
+  <rect x="530" y="100" width="200" height="50" rx="10" fill="#13261a" stroke="#3fb950" stroke-width="2"/>
+  <text x="545" y="121" fill="#e6edf3" font-size="13" font-weight="700">Pin 2 · 5 V</text>
+  <text x="545" y="141" fill="#3fb950" font-size="16" font-weight="800">5.0 V ✓</text>
+
+  <line x1="456" y1="174" x2="530" y2="180" stroke="#3fb950" stroke-width="2"/>
+  <rect x="530" y="158" width="200" height="44" rx="10" fill="#13261a" stroke="#3fb950" stroke-width="2"/>
+  <text x="545" y="186" fill="#e6edf3" font-size="13" font-weight="700">Pin 4 · 5 V = <tspan fill="#3fb950">5.0 V ✓</tspan></text>
+
+  <line x1="456" y1="224" x2="530" y2="236" stroke="#8b949e" stroke-width="2"/>
+  <rect x="530" y="214" width="200" height="44" rx="10" fill="#161b22" stroke="#8b949e" stroke-width="2"/>
+  <text x="545" y="242" fill="#e6edf3" font-size="13" font-weight="700">Pin 6 · GND (black probe)</text>
+
+  <rect x="30" y="306" width="700" height="72" rx="12" fill="#161b22" stroke="#d29922" stroke-width="2"/>
+  <text x="50" y="334" fill="#d29922" font-size="14" font-weight="700">Resistance Pin 1 ↔ Pin 6 (board unpowered, 200 Ω range)</text>
+  <text x="50" y="360" fill="#e6edf3" font-size="14">143.4 Ω → 68.8 Ω → 59.9 Ω  ·  drifting = capacitors charging, not a short</text>
+</svg>

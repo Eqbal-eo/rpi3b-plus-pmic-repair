@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 420" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+  <rect width="760" height="420" rx="18" fill="#0f1720"/>
+  <text x="380" y="40" text-anchor="middle" fill="#e6edf3" font-size="21" font-weight="700">The suspect: MxL7704-R3</text>
+  <text x="380" y="62" text-anchor="middle" fill="#8b949e" font-size="13">Illustration · QFN-32 · 5 × 5 mm · pads hidden underneath</text>
+
+  <g transform="translate(110,95)">
+    <!-- pads -->
+    <g fill="#c9d1d9">
+      <g id="row">
+        <rect x="38" y="-10" width="10" height="16" rx="2"/><rect x="62" y="-10" width="10" height="16" rx="2"/>
+        <rect x="86" y="-10" width="10" height="16" rx="2"/><rect x="110" y="-10" width="10" height="16" rx="2"/>
+        <rect x="134" y="-10" width="10" height="16" rx="2"/><rect x="158" y="-10" width="10" height="16" rx="2"/>
+        <rect x="182" y="-10" width="10" height="16" rx="2"/><rect x="206" y="-10" width="10" height="16" rx="2"/>
+      </g>
+      <use href="#row" transform="translate(0,264)"/>
+      <use href="#row" transform="rotate(90 127 127)"/>
+      <use href="#row" transform="rotate(-90 127 127)"/>
+    </g>
+    <rect x="0" y="0" width="254" height="254" rx="10" fill="#1b1f24" stroke="#30363d" stroke-width="2"/>
+    <circle cx="26" cy="228" r="7" fill="#6e7681"/>
+    <text x="127" y="100" text-anchor="middle" fill="#e6edf3" font-size="24" font-weight="800" font-family="DejaVu Sans Mono,Consolas,monospace">MXL7704-R3</text>
+    <text x="127" y="136" text-anchor="middle" fill="#8b949e" font-size="20" font-family="DejaVu Sans Mono,Consolas,monospace">VA419790</text>
+    <text x="127" y="170" text-anchor="middle" fill="#8b949e" font-size="20" font-family="DejaVu Sans Mono,Consolas,monospace">1809</text>
+  </g>
+
+  <g font-size="14">
+    <text x="440" y="120" fill="#e6edf3" font-weight="700">MXL7704-R3</text>
+    <text x="440" y="140" fill="#8b949e" font-size="12">Raspberry Pi 3B+ factory-programmed (OTP) version</text>
+
+    <text x="440" y="180" fill="#e6edf3" font-weight="700">VA419790</text>
+    <text x="440" y="200" fill="#8b949e" font-size="12">Manufacturing lot</text>
+
+    <text x="440" y="240" fill="#e6edf3" font-weight="700">1809</text>
+    <text x="440" y="260" fill="#8b949e" font-size="12">Date code: 2018, week 9</text>
+
+    <text x="440" y="300" fill="#e6edf3" font-weight="700">● Pin 1 marker</text>
+    <text x="440" y="320" fill="#8b949e" font-size="12">Photograph its position before removing the chip</text>
+  </g>
+
+  <rect x="30" y="372" width="700" height="34" rx="10" fill="#2a1d0b" stroke="#d29922" stroke-width="1.5"/>
+  <text x="380" y="394" text-anchor="middle" fill="#d29922" font-size="13" font-weight="700">Generic MxL7704-AQB / -XQB will NOT work: no Raspberry Pi power-up configuration inside</text>
+</svg>
